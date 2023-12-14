@@ -1,7 +1,7 @@
 # Enhancing Semi-Supervised Domain Adaptation via Effective Target Labeling
 
 
-This is a Pytorch implementation of "Enhancing Semi-Supervised Domain Adaptation via Effective Target Labeling" submitted to AAAI 2024.
+This is a Pytorch implementation of AAAI 2024 paper "Enhancing Semi-Supervised Domain Adaptation via Effective Target Labeling".
 
 Our code is based on [SSDA_MME](https://github.com/VisionLearningGroup/SSDA_MME), [SHOT](https://github.com/tim-learn/SHOT), and [NRC](https://github.com/Albert0147/SFDA_neighbors) implementations.
 We thank their awesome works.
