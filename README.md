@@ -19,8 +19,14 @@ Please download [Office-31](https://faculty.cc.gatech.edu/~judy/domainadapt/), [
 
 To run training on A to C task on dataset Office-Home,
 
+
+(1) Pre-train the source model,
+
 `python train_source.py --dset office_home --s 0 --net resnet34 --max_epoch 20
 `
+
+(2) Adaptation under 1-shot and 3-shot settings using FixMME and MME as baselines, respectively,
+
 
 `python main.py --dset office_home --s 0 --t 1 --shot 3 --net resnet34 --use_src --method FixMME --th 0.85
 `
