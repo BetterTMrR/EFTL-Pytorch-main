@@ -25,7 +25,7 @@ To run training on A to C task on dataset Office-Home,
 `python train_source.py --dset office_home --s 0 --net resnet34 --max_epoch 20
 `
 
-(2) Adaptation under 1-shot and 3-shot settings using FixMME and MME as baselines, respectively,
+(2) Adaptation under 1-shot and 3-shot settings using FixMME as baseline,
 
 
 `python main.py --dset office_home --s 0 --t 1 --shot 3 --net resnet34 --use_src --method FixMME --th 0.85
@@ -33,6 +33,8 @@ To run training on A to C task on dataset Office-Home,
 
 `python main.py --dset office_home --s 0 --t 1 --shot 1 --net resnet34 --use_src --method FixMME --th 0.85 
 `
+
+(3) Adaptation under 1-shot and 3-shot settings using MME as baseline,
 
 `python main.py --dset office_home --s 0 --t 1 --shot 3 --net resnet34 --use_src --method MME 
 `
