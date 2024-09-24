@@ -3,9 +3,6 @@
 
 This is a Pytorch implementation of AAAI 2024 paper "Enhancing Semi-Supervised Domain Adaptation via Effective Target Labeling".
 
-Our code is based on [SSDA_MME](https://github.com/VisionLearningGroup/SSDA_MME), [SHOT](https://github.com/tim-learn/SHOT), and [NRC](https://github.com/Albert0147/SFDA_neighbors) implementations.
-We thank their awesome works.
-
 
 ## Install
 
@@ -37,3 +34,25 @@ To run training on A to C task on dataset Office-Home,
 `python main.py --dset office_home --s 0 --t 1 --shot 3 --net resnet34 --use_src --method MME`
 
 `python main.py --dset office_home --s 0 --t 1 --shot 1 --net resnet34 --use_src --method MME`
+
+
+## Acknowledgement
+Our code is partially based on [SSDA_MME](https://github.com/VisionLearningGroup/SSDA_MME), [SHOT](https://github.com/tim-learn/SHOT), and [NRC](https://github.com/Albert0147/SFDA_neighbors) implementations.
+
+
+
+## Reference
+
+If you find our work helpful, please consider citing the following paper.
+
+```
+@inproceedings{he2024enhancing,
+  title={Enhancing Semi-supervised Domain Adaptation via Effective Target Labeling},
+  author={He, Jiujun and Liu, Bin and Yin, Guosheng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={11},
+  pages={12385--12393},
+  year={2024}
+}
+```
